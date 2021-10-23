@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+body{
+    background-color: rgb(187, 203, 255);
+    font-size: 16px;
+    color:darkslategray;
+    font-family: 'IM Fell English SC', sans-serif;
+    margin-bottom: auto;
+}
+
+.menu{
+    background-color: rgb(20, 130, 220);
+    position: fixed;
+    padding: 10px;
+    padding-left: 0.1px;
+    padding-right: 0.1px;
+    display:block;
+    text-align: center;
+}
+
+.doc{
+    margin-top: 1px;
+}
+
+.description{
+    display:flex;
+    margin: auto;
+}
+
+.description p{
+    color:rgb(88, 88, 88);
+    font-style: italic;
+}
+
+.main{
+    margin-top: 200px;
+    width:800px;
+    margin:auto;
+   }
+
+.des-text{
+    padding:16px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+a:hover{
+    text-decoration: solid;
+    margin: auto;
+}
+
+a:active{
+    color:rgb(102, 255, 0);
+}
+
+a:visited{
+    color:rgb(255, 0, 0);
+}
+
+.cube{
+    margin:20px;
+}
+
+.list{
+    padding: 0 20px;
+}
+
+.list li{
+    color:rgb(88, 88, 88);
+    margin-bottom: 10px;
+}
+
+.table{
+    width:100%;
+    margin: 20px;
+}
+
+.table td{
+    padding-bottom: 10px;
+    border: 1px solid ;
+}
+
+.table tr:nth-child(1){
+    background-color: darksalmon;
+}
+
+.table tr:nth-child(2){
+    background-color:rgb(199, 189, 156);
+}
+
+.table tr:nth-child(3){
+    background-color: rgb(245, 161, 161)
+}
+
+.table tr:nth-child(4){
+    background-color: rgb(190, 171, 204)
+}
+
+td:hover{
+ background-color: blueviolet;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form label{
+    display: block;
+    font-size: 14px;
+    color:rgb(88,88,88);
+    padding-top: 10px;
+}
+
+.form input, textarea{
+    width:100%;
+    box-sizing:border-box;
+    border:none;
+    background:none;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    font-family: inherit;
+}
+
+.btn:hover{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(62, 189, 62);
+}
+
+.btn:active{
+    background-color: darkorange;
+}
+
+@media (max-width: 425px){
+    .main{
+        display:block;
+        text-align: center;
+    }
+}
